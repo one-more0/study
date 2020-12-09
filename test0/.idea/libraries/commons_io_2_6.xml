@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="commons-io-2.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/commons-io-2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/fastjson-1.2.74.jar!/" />
+      <root url="jar://$PROJECT_DIR$/poi-scratchpad-3.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

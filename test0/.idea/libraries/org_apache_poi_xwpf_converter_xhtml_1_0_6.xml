@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="org.apache.poi.xwpf.converter.xhtml-1.0.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/org.apache.poi.xwpf.converter.xhtml-1.0.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

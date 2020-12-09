@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body id="body" onclick='scan()'>sferereg===========
+<a id="a" href=''>转到文件预览</a>
+<iframe src='C:/Users/banner/Pictures/fse.docx' width='100%' height='100%' frameborder='1'>
+</iframe>
+<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+<script>
+    function scan(){
+        alert(decodeURIComponent("http%3A%2F%2Flocalhost%3A8012%2Fdemo%2F捕获.PNG"))
+    $.ajax({
+        type: 'post',
+        contentType: "application/json;charset=UTF-8",
+        url: "/file/scan",
+        data: JSON.stringify({"path":"C:/Users/banner/Pictures/","file":"fse.docx"}),
+        success: function(result) {
+            console.log("前端");
+            // document.getElementById('a').setAttribute("href",result);
+        }
+    });
+    function outPut(s){
+        console.log(s);
+    }}
+</script>
+</body>
+</html>
